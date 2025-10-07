@@ -1,0 +1,29 @@
+ /* Estilos para la imagen principal del carousel */
+    .imagen-principal {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    /* Estilos para las imágenes pequeñas */
+    .imagen-ajustada {
+      width: 100%; /* Cambiado de 21% a 100% para que ocupe todo el espacio de su celda */
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    /* Contenedor grid para organizar las 4 imágenes */
+    .grid-imagenes {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2 columnas de igual tamaño */
+      gap: 15px; /* Espacio entre imágenes */
+    }
+
+    /* Ajustes para dispositivos móviles */
+    @media (max-width: 768px) {
+      .grid-imagenes {
+        grid-template-columns: 1fr; /* 1 columna en móviles */
+      }
+    }
