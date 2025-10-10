@@ -27,3 +27,29 @@
         grid-template-columns: 1fr; /* 1 columna en móviles */
       }
     }
+
+
+    /*imagenes de los cards en el apartado de cursos*/
+
+    .imagen-ajustada {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    /*botones de los cards*/
+    .btn-alto {
+  height: 50px;          /* Ajusta el alto */
+  font-size: 1.1rem;     /* Tamaño de texto */
+  display: flex;
+  align-items: center;   /* Centra el texto verticalmente */
+  justify-content: center;
+}
+
+
+/*el body de contactos*/
+
+body {
+  background-color: #d4f8e8; /* Verde muy claro, tipo menta */
+}
